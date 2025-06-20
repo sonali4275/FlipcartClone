@@ -1,9 +1,5 @@
 {
-  "name": "paytmchecksum",
-  "description": "This is for paytm checksum creation and verification in node",
-  "version": "1.5.0",
   "author": "Soumya Vats",
-  "main": "PaytmChecksum.js",
   "keywords": [
     "Paytm",
     "Checksum",
@@ -17,5 +13,24 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/paytm/Paytm_Node_Checksum"
+  },
+  "name": "flipkart-clone-server",
+  "version": "1.0.0",
+  "description": "Backend for Flipkart Clone",
+  "main": "index.js",
+  "scripts": {
+  "start": "node server.js",
+  "dev": "nodemon server.js"
+},
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "formidable": "^2.1.1",
+    "mongoose": "^5.12.9",
+    "mongoose-auto-increment": "^5.0.1",
+    "nodemon": "^2.0.7",
+    "paytmchecksum": "^1.0.4"
   }
 }
