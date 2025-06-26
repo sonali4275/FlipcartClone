@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const url = 'process.env.https://flipkart-backend-n9vu.onrender.com';
+const url = 'process.env.REACT_APP_BACKEND_URL'                             ;
 
 export const authenticateLogin = async (user) => {
     try {
